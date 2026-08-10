@@ -33,7 +33,7 @@ export default function TimelinePage({ onClose, initialYear }) {
         onClick={() => hasPrev && setActiveYear(YEARS[activeIndex - 1])}
       >
         <svg viewBox="0 0 20 20" fill="none" style={{ transform: 'scaleX(-1)' }}>
-          <path d="M2.72727 9.28029V11.1742H13.5744L8.60279 16.3826L9.88636 17.7273L17.0455 10.2273L9.88636 2.72726L8.60279 4.07196L13.5744 9.28029H2.72727Z" fill="#FF000F"/>
+          <path d="M2.72727 9.28029V11.1742H13.5744L8.60279 16.3826L9.88636 17.7273L17.0455 10.2273L9.88636 2.72726L8.60279 4.07196L13.5744 9.28029H2.72727Z" fill="currentColor"/>
         </svg>
       </button>
 
@@ -42,7 +42,7 @@ export default function TimelinePage({ onClose, initialYear }) {
         onClick={() => hasNext && setActiveYear(YEARS[activeIndex + 1])}
       >
         <svg viewBox="0 0 20 20" fill="none">
-          <path d="M2.72727 9.28029V11.1742H13.5744L8.60279 16.3826L9.88636 17.7273L17.0455 10.2273L9.88636 2.72726L8.60279 4.07196L13.5744 9.28029H2.72727Z" fill="#FF000F"/>
+          <path d="M2.72727 9.28029V11.1742H13.5744L8.60279 16.3826L9.88636 17.7273L17.0455 10.2273L9.88636 2.72726L8.60279 4.07196L13.5744 9.28029H2.72727Z" fill="currentColor"/>
         </svg>
       </button>
 
