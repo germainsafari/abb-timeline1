@@ -44,8 +44,8 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 200;
-  width: 3vh;
-  height: 8vh;
+  width: 1.8vh;
+  height: 6vh;
   border: none;
   cursor: pointer;
   display: flex;
@@ -57,18 +57,18 @@
 }
 
 .side-nav svg {
-  width: 1.8vh;
-  height: 1.8vh;
+  width: 1.2vh;
+  height: 1.2vh;
 }
 
 .side-nav-prev {
   left: 0;
-  border-radius: 0 1.5vh 1.5vh 0;
+  border-radius: 0 2.3vh 2.3vh 0;
 }
 
 .side-nav-next {
   right: 0;
-  border-radius: 1.5vh 0 0 1.5vh;
+  border-radius: 2.3vh 0 0 2.3vh;
 }
 
 .side-nav.disabled {
