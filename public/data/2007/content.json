@@ -1,0 +1,45 @@
+{
+  "title": "REF615 NATIVE \nIEC 61850 RELAY",
+  "text": "Can you imagine life without a personal computer in your pocket at all times?\n\nThat’s only been our reality for the past two decades after the first widely successful smartphones hit the market. In 2007, Vaasa was quick to embrace a similar shift when we introduced the REF615 relay, the world’s first native IEC 61850 feeder protection relay with lightning-fast peer-to-peer communication using GOOSE messaging. This enabled signals to be transmitted over Ethernet in milliseconds.",
+  "funFact": "It’s no surprise that the 615 series has grown to become our bestselling series of relays. To date, we have sold over one million 615 series devices worldwide.",
+  "funFactSource": "Source: Wikipedia",
+  "images": [
+    {
+      "id": "img-1784207404526",
+      "src": "/data/2007/images/1784207404524-REF615_large_left_coi300_2.png",
+      "x": 56.90207678560424,
+      "y": 75.0277315585136,
+      "width": 37.267825229555676,
+      "height": 15.528260512314867,
+      "caption": "REF615 inherited the plug-in design from the 610 series relays, enabling a variety of mounting methods and fast installation, routine testing and maintenance."
+    },
+    {
+      "id": "img-1784207417374",
+      "src": "/data/2007/images/1784207417368-615_D-0006part_1.png",
+      "x": 54.141246071362545,
+      "y": 54.89462007764836,
+      "width": 35,
+      "height": 14.49612752161383,
+      "caption": "One single tool, PCM600,  for managing relay settings, signal configuration and  disturbance handling."
+    },
+    {
+      "id": "img-1784207428008",
+      "src": "/data/2007/images/1784207428006-FunctionOverview_retarded_3d_straight_1.png",
+      "x": 64.79016454058052,
+      "y": 27.82861896838602,
+      "width": 29.083934183767795,
+      "height": 21.04704647217185,
+      "caption": "Included functionality in the first REF615 relay"
+    },
+    {
+      "id": "img-1784207441854",
+      "src": "/data/2007/images/1784207441804-REF615_1.png",
+      "x": 5.925309669070068,
+      "y": 52.62063227953411,
+      "width": 42.09927897947864,
+      "height": 16.493863257380344,
+      "caption": "Re-engineered from the ground up, the  feeder protection relay was designed to unleash the full potential of the IEC 61850 standard for communication and interoperability of substation automation devices."
+    }
+  ],
+  "funFactImage": "/data/2007/images/funfact/funfact.png"
+}

@@ -1,0 +1,45 @@
+{
+  "title": "RELION® PRODUCT FAMILY",
+  "text": "Our first native IEC 61850 relay REF615 was part of the Relion® family of protection and control relays launched in 2009.\n\nThe Relion® family marked a major shift in how our electrical substations were built and operated. With Relion®, we moved from a mix of separate, partly incompatible relays and systems to a unified, fully digital protection and control platform. In other words, a modern product family for modern times.",
+  "funFact": "It would not take long for us to reach a new milestone — a total of 1 million relays delivered. We achieved this in 2011 shortly after the Relion® family launch.",
+  "funFactSource": "Source: ABB",
+  "images": [
+    {
+      "id": "img-1784207591270",
+      "src": "/data/2009/images/1784207591213-asemataso_sRGB300_3.png",
+      "x": 53.35243729586492,
+      "y": 72.31003882418192,
+      "width": 41.60627349479263,
+      "height": 15.633065852989256,
+      "caption": "The switching substation at Helsinki-Vantaa airport was equipped with new switchgear and advanced IEC 61850 compliant Relion 630 series protection and control relays."
+    },
+    {
+      "id": "img-1784207606550",
+      "src": "/data/2009/images/1784207606542-image_1.png",
+      "x": 48.02797806125593,
+      "y": 54.45091514143095,
+      "width": 43.97269982128551,
+      "height": 11.348836497993544,
+      "caption": "The Relion family included devices for  both medium-voltage and high-voltage power systems."
+    },
+    {
+      "id": "img-1784207615401",
+      "src": "/data/2009/images/1784207615378-500series_1.png",
+      "x": 55.028655943797375,
+      "y": 32.54298391569606,
+      "width": 38.94404387748814,
+      "height": 15.17419845667241,
+      "caption": "The 150.000th Relion 615 series protection relay was delivered to Enerjisa Başkent Elektrik in Türkiye."
+    },
+    {
+      "id": "img-1784207627958",
+      "src": "/data/2009/images/1784207627902-Switchgear_DSC0029_sRGB300_1.png",
+      "x": 5.8267085721328655,
+      "y": 52.67609539656129,
+      "width": 39.23984716829974,
+      "height": 16.554310524126457,
+      "caption": "ORES reduced substation wiring costs with IEC 61850 compliant 615 series relays in the multi-functional complex of Médiacité."
+    }
+  ],
+  "funFactImage": "/data/2009/images/funfact/funfact.png"
+}

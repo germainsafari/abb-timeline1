@@ -1,0 +1,54 @@
+{
+  "title": "REX640 RELAY AND\nCENTRALIZED\nPROTECTION SSC600",
+  "text": "In 2019, two new pioneering products, the all-in-one protection and control relay REX640 and the smart substation control and protection device SSC600 were launched. The REX640’s modular design allowed unequaled adaptive flexibility through customizable software and hardware, while SSC600 enabled protection and control of a wide variety of utility and industrial applications with a single, centralized device at the substation level managing up to 30 bays.",
+  "funFact": "2019 was when AI began to power translation, search recommendations, and content creation. Across the board, software was taking a flexible intelligence rather than a fixed program approach.",
+  "funFactSource": "Source: Vecteezy",
+  "images": [
+    {
+      "id": "img-1784207714043",
+      "src": "/data/2019/images/1784207713989-SPIDER_reward015_1.png",
+      "x": 59.16990201515991,
+      "y": 72.97559622850804,
+      "width": 35.29580329081161,
+      "height": 18.826964039818694,
+      "caption": "Savon Voima Verkko selected REX640 protection relay technology to renew substations in Eastern Finland."
+    },
+    {
+      "id": "img-1784207729306",
+      "src": "/data/2019/images/1784207729305-DTU1-4020_1.png",
+      "x": 5.925309669070068,
+      "y": 53.00887409872435,
+      "width": 27.999322117458558,
+      "height": 10.96947126378064,
+      "caption": "REX640 was an all-in-one protection for advanced power generation and distribution applications."
+    },
+    {
+      "id": "img-1784207740338",
+      "src": "/data/2019/images/1784207740335-LIB_and_engineering005ed_1.png",
+      "x": 36.688851913477535,
+      "y": 59.05435385468664,
+      "width": 27.30911443889813,
+      "height": 9.849653608879997,
+      "caption": "The Sonkajärvi substation took full advantage of the REX640 relays and  utilized multi-frequency admittance- based earth-fault protection."
+    },
+    {
+      "id": "img-1784207755881",
+      "src": "/data/2019/images/1784207755881-ABB-SSC600-RIGHT-2024-01-25_1.png",
+      "x": 67.3537930609478,
+      "y": 57.05768164170827,
+      "width": 26.520305663400507,
+      "height": 8.405989741524266,
+      "caption": "The centralized protection and control solution, SSC600, offered station-wide visibility and fully modular software for maximum flexibility during the entire lifetime of the substation."
+    },
+    {
+      "id": "img-1784207779259",
+      "src": "/data/2019/images/1784207779203-SACO_16_040_2.png",
+      "x": 56.724997264574164,
+      "y": 39.44053309991033,
+      "width": 37.00600689732559,
+      "height": 13.065285679840358,
+      "caption": "SSC600 pilot at Caruna’s Noormarkku substation in western Finland."
+    }
+  ],
+  "funFactImage": "/data/2019/images/funfact/funfact.png"
+}

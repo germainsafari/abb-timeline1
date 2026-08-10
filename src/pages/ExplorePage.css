@@ -1,0 +1,266 @@
+.explore-page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #f0f0f0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.explore-hint {
+  position: absolute;
+  top: 1.5vh;
+  left: 3vh;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 0.5vh;
+  font-family: 'ABBvoice', sans-serif;
+  font-size: 0.7vh;
+  color: #999;
+  pointer-events: none;
+}
+
+.explore-hint svg {
+  width: 1vh;
+  height: 1vh;
+}
+
+.explore-scroll {
+  flex: 1;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  cursor: grab;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.explore-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.explore-scroll.dragging {
+  cursor: grabbing;
+}
+
+.explore-canvas {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+}
+
+/* ── Item card ─────────────────────────────────────────── */
+
+.explore-item {
+  position: absolute;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.explore-item:hover {
+  transform: scale(1.03);
+  z-index: 5;
+}
+
+.explore-item-img-wrap {
+  background: #fff;
+  border-radius: 0.3vh;
+  overflow: hidden;
+  box-shadow: 0 0.2vh 0.8vh rgba(0, 0, 0, 0.08);
+}
+
+.explore-item-img-wrap img {
+  display: block;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  user-select: none;
+}
+
+.explore-item-desc {
+  font-family: 'ABBvoice', sans-serif;
+  font-size: 0.6vh;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.5;
+  margin-top: 0.4vh;
+  max-width: 100%;
+}
+
+.explore-item-year {
+  display: flex;
+  align-items: center;
+  gap: 0.3vh;
+  font-family: 'ABBvoice Display', sans-serif;
+  font-size: 0.65vh;
+  font-weight: 700;
+  color: #FF000F;
+  margin-top: 0.25vh;
+}
+
+.explore-year-icon {
+  width: 1.1vh;
+  height: 1.1vh;
+  flex-shrink: 0;
+}
+
+/* ── Fixed background watermark ──────────────────────── */
+
+.explore-bg-watermark {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 0;
+  opacity: 1;
+  height: 25vh;
+  width: auto;
+}
+
+/* ── Edit mode toggle ─────────────────────────────────── */
+
+.explore-edit-toggle {
+  position: absolute;
+  top: 1.5vh;
+  right: 3vh;
+  z-index: 20;
+  font-family: 'ABBvoice', sans-serif;
+  font-size: 0.7vh;
+  padding: 0.4vh 1vh;
+  border: 1px solid transparent;
+  border-radius: 0.3vh;
+  background: transparent;
+  color: transparent;
+  cursor: default;
+  transition: all 0.2s ease;
+}
+
+.explore-edit-toggle.active {
+  background: #FF000F;
+  border-color: #FF000F;
+  color: #fff;
+  cursor: pointer;
+}
+
+.explore-save-indicator {
+  position: absolute;
+  top: 1.5vh;
+  right: 14vh;
+  z-index: 20;
+  font-family: 'ABBvoice', sans-serif;
+  font-size: 0.6vh;
+  color: #FF000F;
+}
+
+/* ── Edit mode scroll ─────────────────────────────────── */
+
+.explore-scroll.editing {
+  cursor: default;
+  overflow-x: scroll;
+}
+
+/* ── Edit mode item ───────────────────────────────────── */
+
+.explore-item.editing {
+  cursor: move;
+  transition: none;
+}
+
+.explore-item.editing:hover {
+  transform: none;
+}
+
+.explore-item.editing::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border: 1px dashed rgba(255, 0, 15, 0.4);
+  border-radius: 0.3vh;
+  pointer-events: none;
+}
+
+.explore-item.dragging-item::after {
+  border-color: #FF000F;
+  border-style: solid;
+}
+
+.explore-item-coords {
+  position: absolute;
+  top: -1.2vh;
+  left: 0;
+  font-family: monospace;
+  font-size: 0.5vh;
+  color: #FF000F;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0.1vh 0.3vh;
+  border-radius: 0.15vh;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.explore-item-resize {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 1.2vh;
+  height: 1.2vh;
+  cursor: se-resize;
+  z-index: 10;
+}
+
+.explore-item-resize::before {
+  content: '';
+  position: absolute;
+  bottom: 0.15vh;
+  right: 0.15vh;
+  width: 0.6vh;
+  height: 0.6vh;
+  border-right: 2px solid #FF000F;
+  border-bottom: 2px solid #FF000F;
+}
+
+/* ── Close button ──────────────────────────────────────── */
+
+.explore-close {
+  position: absolute;
+  bottom: 2.5vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  width: 3.5vh;
+  height: 3.5vh;
+  border-radius: 50%;
+  border: none;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.explore-close:active {
+  background: #aaa;
+}
+
+.explore-close svg {
+  width: 1.2vh;
+  height: 1.2vh;
+}
+
+/* ── Year markers (bottom of canvas) ─────────────────── */
+
+.explore-year-marker {
+  position: absolute;
+  bottom: 1.5vh;
+  font-family: 'ABBvoice Display', sans-serif;
+  font-size: 1.2vh;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.12);
+  white-space: nowrap;
+  pointer-events: none;
+  transform: translateX(-50%);
+}

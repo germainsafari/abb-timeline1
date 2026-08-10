@@ -1,0 +1,81 @@
+{
+  "title": "STATIC PROTECTION\nRELAYS",
+  "text": "If one moment captured the spirit of 1965, it was arguably Bob Dylan's decision to \"go electric\" at the Newport Folk Festival, a symbolic sign that culture was entering a new technological era. That same year we introduced our first static protection relays that replaced moving parts with solid-state electronics. They were faster, smaller, and more reliable than anything seen before.\n\nOriginally made in Helsinki, relay production started up in Vaasa in 1967. Across music and industry, electronics were replacing mechanics, and we were part of it. ",
+  "funFact": "The Vaasa factories were also producing fire and gas alarms, stoves, and light controls during the ‘60s. A little later we would even make a disco light system.",
+  "funFactSource": "Source: ABB",
+  "images": [
+    {
+      "id": "img-1784204358414",
+      "src": "/data/1965/images/1784204358377-Salwico-StroI_mberg_system033_1.png",
+      "x": 73.43128743044227,
+      "y": 34.18675475366704,
+      "width": 20.245609100031626,
+      "height": 14.87497789389613,
+      "caption": "Rolf Holmberg is assembling a Salwico-Strömberg fire alarm system SPSP20E at the electronics factory in Vaasa"
+    },
+    {
+      "id": "img-1784204394035",
+      "src": "/data/1965/images/1784204394023-Early_fire_alarm031_1.png",
+      "x": 48.323781352067535,
+      "y": 34.20687742651137,
+      "width": 22.773463979786772,
+      "height": 14.88408538678921,
+      "caption": "Fire alarm system SPSP100B"
+    },
+    {
+      "id": "img-1784204414100",
+      "src": "/data/1965/images/1784204414066-Frame_25331.png",
+      "x": 53.155235101990506,
+      "y": 54.74344849790535,
+      "width": 40.656036166032735,
+      "height": 10.061281245012557,
+      "caption": "SACO alarm system in a typical ship installation"
+    },
+    {
+      "id": "img-1784204425290",
+      "src": "/data/1965/images/1784204425288-Dimmers032_1.png",
+      "x": 53.09240764566544,
+      "y": 69.70327232390461,
+      "width": 22.181857398163558,
+      "height": 8.672559156512937,
+      "caption": "A range of light control equipment"
+    },
+    {
+      "id": "img-1784204441764",
+      "src": "/data/1965/images/1784204441697-225-channel_SRHA_system035_1.png",
+      "x": 77.80550933629137,
+      "y": 72.25457570715474,
+      "width": 16.269180994638567,
+      "height": 14.495305877066203,
+      "caption": "225 channel SRHA alarm system, model with the annunciator lamps in a separate panel"
+    },
+    {
+      "id": "img-1784204458136",
+      "src": "/data/1965/images/1784204458134-Fire_alarm_units_on_ship030_landscape_1.png",
+      "x": 53.12818128627759,
+      "y": 82.88337150352838,
+      "width": 22.307512310813685,
+      "height": 9.488758464852824,
+      "caption": "Fire alarm system installed on a ship"
+    },
+    {
+      "id": "img-1784204478912",
+      "src": "/data/1965/images/1784204478899-HPIM2532_1.png",
+      "x": 31.337338863155622,
+      "y": 54.72823072656683,
+      "width": 19.32581499969187,
+      "height": 16.56498428545018,
+      "caption": "Year 1965 prototype for the static or electronic protective relay"
+    },
+    {
+      "id": "img-1784204493647",
+      "src": "/data/1965/images/1784204493607-EnsimmaI_inen_sarjavalmisteinen_suojarele_1.png",
+      "x": 5.8267085721328655,
+      "y": 56.89129229062674,
+      "width": 23.167868367535586,
+      "height": 9.281731436813944,
+      "caption": "The plug-in static protective relay model 1967"
+    }
+  ],
+  "funFactImage": "/data/1965/images/funfact/funfact.png"
+}

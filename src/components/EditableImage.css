@@ -1,0 +1,94 @@
+.editable-image {
+  position: absolute;
+  cursor: default;
+}
+
+.editable-image.editing {
+  cursor: grab;
+  outline: 0.1vh dashed rgba(229, 0, 0, 0.4);
+  outline-offset: 0.21vh;
+}
+
+.editable-image.editing:hover {
+  outline-color: rgba(229, 0, 0, 0.8);
+}
+
+.editable-image.dragging {
+  cursor: grabbing;
+  opacity: 0.85;
+  z-index: 50;
+}
+
+.editable-image img {
+  display: block;
+  object-fit: contain;
+  border-radius: 0.1vh;
+  pointer-events: none;
+}
+
+.image-caption {
+  font-family: 'ABBvoice', sans-serif;
+  font-weight: 400;
+  font-size: 0.6vh;
+  color: #000;
+  margin-top: 0.31vh;
+  line-height: 1.4;
+}
+
+.caption-input {
+  width: 100%;
+  font-family: 'ABBvoice', sans-serif;
+  font-size: 0.63vh;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 0.16vh;
+  padding: 0.16vh 0.31vh;
+  background: #fff;
+  outline: none;
+}
+
+.caption-input:focus {
+  border-color: #FF000F;
+}
+
+.img-delete-btn {
+  position: absolute;
+  top: -0.52vh;
+  right: -0.52vh;
+  width: 1.25vh;
+  height: 1.25vh;
+  border-radius: 50%;
+  background: #FF000F;
+  color: #fff;
+  border: none;
+  font-size: 0.83vh;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.img-resize-handle {
+  position: absolute;
+  bottom: -0.31vh;
+  right: -0.31vh;
+  width: 0.83vh;
+  height: 0.83vh;
+  background: #FF000F;
+  border-radius: 0.1vh;
+  cursor: nwse-resize;
+  z-index: 10;
+}
+
+.img-resize-handle::after {
+  content: '';
+  position: absolute;
+  bottom: 0.16vh;
+  right: 0.16vh;
+  width: 0.42vh;
+  height: 0.42vh;
+  border-right: 0.1vh solid #fff;
+  border-bottom: 0.1vh solid #fff;
+}

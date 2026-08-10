@@ -1,0 +1,36 @@
+{
+  "title": "REX615 ALL-IN-ONE RELAY",
+  "text": "We’re pretty sure progress doesn’t like standing still, at least here in Vaasa. In 2024, our REX615 protection relay continued the 615 series story from 2007, but with a much more flexible mindset. Combining multi-application coverage with fully modular and scalable hardware and software, REX615 opens up new possibilities, and is ready to adapt to the grid of the future.\n\nAvailable in two sizes, it seamlessly replaces the 615 and 620 series relays, as hardware dimensions, modules, and wiring connections remain the same. ",
+  "funFact": "In 2024, AI started to appear in some quite unexpected places. Everybody started using AI for everything from emails, grocery lists, and homework to dating profiles. AI-generated voices and videos got so real that spotting fakes turned into a game.",
+  "funFactSource": "Source: Pexels",
+  "images": [
+    {
+      "id": "img-1784208159673",
+      "src": "/data/2024/images/1784208159626-Zrzut_ekranu_2026-04-23_o_11.04.49_1-1.png",
+      "x": 53.54963948973932,
+      "y": 64.54520244037715,
+      "width": 40.028655943797375,
+      "height": 18.78229019473407,
+      "caption": "When an aging distribution substation needed modernization, Swedish utility Jämtkraft Elnät chose to upgrade with REX615 protection relays from ABB."
+    },
+    {
+      "id": "img-1784208173442",
+      "src": "/data/2024/images/1784208173440-Zrzut_ekranu_2026-04-23_o_11.04.49_1.png",
+      "x": 53.253836198927715,
+      "y": 37.53466444814199,
+      "width": 40.42306033154619,
+      "height": 16.453607471634378,
+      "caption": "A convenient application package concept makes it possible for REX615 to cover the same application areas as all 615 and 620 series relays together. Support for IEC, ANSI and CN standards and conventions ensures global coverage."
+    },
+    {
+      "id": "img-1784208185267",
+      "src": "/data/2024/images/1784208185248-Zrzut_ekranu_2026-04-23_o_11.02.49_1.png",
+      "x": 5.925309669070068,
+      "y": 51.56683305601775,
+      "width": 44.367104209034316,
+      "height": 17.000931853025154,
+      "caption": "Preconfigurations, intended as guiding examples, facilitate engineering and are conveniently accessible via ABB’s relay setting and configuration tool, PCM600."
+    }
+  ],
+  "funFactImage": "/data/2024/images/funfact/funfact.png"
+}

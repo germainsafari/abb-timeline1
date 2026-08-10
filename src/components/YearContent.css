@@ -1,0 +1,253 @@
+.year-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  animation: yc-fade-in 0.5s ease-out both;
+}
+
+@keyframes yc-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.save-indicator {
+  position: absolute;
+  top: 0.83vh;
+  right: 0.83vh;
+  background: #FF000F;
+  color: #fff;
+  font-family: 'ABBvoice', sans-serif;
+  font-size: 0.63vh;
+  font-weight: 400;
+  padding: 0.31vh 0.73vh;
+  border-radius: 1.04vh;
+  z-index: 200;
+}
+
+/* Top section: year + title + text, flows naturally */
+.yc-top-section {
+  position: relative;
+  z-index: 1;
+  padding: 7vh 3.33vh 3.33vh;
+}
+
+/* Year number */
+.yc-year-number {
+  font-family: 'ABBvoice Display', sans-serif;
+  font-size: 9.38vh;
+  font-weight: 600;
+  color: #FF000F;
+  line-height: 0.85;
+  letter-spacing: -0.21vh;
+  margin-bottom: 1.67vh;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 2.2ch;
+}
+
+.yc-year-number span {
+  display: inline-block;
+}
+
+/* Title */
+.yc-title-section {
+  margin-bottom: 1.3vh;
+}
+
+.yc-title {
+  font-family: 'ABBvoice Display', sans-serif;
+  font-size: 2.8vh;
+  font-weight: 600;
+  color: #1a1a1a;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: -0.03vh;
+  white-space: pre-line;
+}
+
+/* Text — follows title height naturally */
+.yc-text-section {
+  margin-top: 0;
+}
+
+.yc-text {
+  font-family: 'ABBvoice', sans-serif;
+  font-size: 0.75vh;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.6;
+  max-width: 22vh;
+  white-space: pre-line;
+}
+
+/* Fun Fact — fixed distance from bottom of viewport, above timeline nav */
+.yc-funfact-section {
+  position: absolute;
+  bottom: 5.5vh;
+  left: 3.33vh;
+  right: 3.33vh;
+  z-index: 1;
+}
+
+.yc-funfact {
+  background: #fff;
+  border-radius: 0;
+  padding: 1.2vh;
+  max-width: 25vh;
+  position: relative;
+  border-top: 0.1vh solid #FF000F;
+}
+
+.yc-funfact-label {
+  font-family: 'ABBvoice Display', sans-serif;
+  font-size: 1.15vh;
+  font-weight: 600;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 0.52vh;
+}
+
+.yc-funfact-text {
+  font-family: 'ABBvoice', sans-serif;
+  font-size: 0.6vh;
+  color: #333;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+.yc-funfact-source {
+  font-family: 'ABBvoice', sans-serif;
+  font-weight: 300;
+  font-size: 0.5vh;
+  color: #000;
+  display: block;
+  margin-top: 0.63vh;
+}
+
+/* Editable inputs */
+.yc-editable-input,
+.yc-editable-textarea {
+  width: 100%;
+  font-family: 'ABBvoice', sans-serif;
+  border: 1px dashed #ccc;
+  border-radius: 0.21vh;
+  padding: 0.42vh 0.63vh;
+  background: rgba(255, 255, 255, 0.8);
+  outline: none;
+  resize: vertical;
+}
+
+.yc-editable-input:focus,
+.yc-editable-textarea:focus {
+  border-color: #FF000F;
+}
+
+.yc-title-input {
+  font-size: 2.18vh;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.yc-editable-textarea {
+  font-size: 0.75vh;
+  line-height: 1.6;
+}
+
+.yc-funfact-edit {
+  background: #fff;
+  border-radius: 0;
+  border-top: 0.1vh solid #FF000F;
+  padding: 1.67vh;
+  max-width: 25vh;
+}
+
+/* Fun Fact image */
+.yc-funfact-image {
+  margin-top: 1vh;
+}
+
+.yc-funfact-image img {
+  display: block;
+  height: 5vh;
+  width: auto;
+  object-fit: contain;
+  border-radius: 0;
+}
+
+.yc-funfact-image-caption {
+  font-family: 'ABBvoice', sans-serif;
+  font-size: 0.63vh;
+  color: #888;
+  margin-top: 0.42vh;
+}
+
+.yc-funfact-upload-btn {
+  display: inline-block;
+  margin-top: 0.83vh;
+  background: #FF000F;
+  color: #fff;
+  font-family: 'ABBvoice', sans-serif;
+  font-size: 0.63vh;
+  font-weight: 400;
+  padding: 0.42vh 0.83vh;
+  border: none;
+  border-radius: 0.83vh;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.yc-funfact-upload-btn:hover {
+  background: #d9000d;
+}
+
+.yc-funfact-textarea {
+  font-size: 0.73vh;
+}
+
+.yc-source-input {
+  font-size: 0.63vh;
+  margin-top: 0.42vh;
+  color: #888;
+}
+
+/* Images layer */
+.yc-images-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.yc-images-layer .editable-image {
+  pointer-events: auto;
+}
+
+/* Upload button */
+.yc-upload-btn {
+  position: absolute;
+  top: 0.83vh;
+  left: 0.83vh;
+  background: #FF000F;
+  color: #fff;
+  font-family: 'ABBvoice', sans-serif;
+  font-size: 0.73vh;
+  font-weight: 400;
+  padding: 0.52vh 1.04vh;
+  border: none;
+  border-radius: 1.25vh;
+  cursor: pointer;
+  z-index: 200;
+  transition: background 0.2s;
+}
+
+.yc-upload-btn:hover {
+  background: #d9000d;
+}

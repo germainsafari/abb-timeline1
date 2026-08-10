@@ -1,0 +1,72 @@
+{
+  "title": "SPACOM SERIAL\nCOMMUNICATION SYSTEM",
+  "text": "As Marty McFly was heading back to the future, we were exploring new digital horizons in Vaasa, just with fewer hoverboards involved. That year we launched the SPACOM secondary equipment family that allowed our microprocessor relays to communicate serially with fiber optics.\n\nThis marked a big leap from electromechanical logic to software and data-driven protection. SPACOM helped turn power system protection into a coordinated system, basically giving relays their first taste of the digital age.",
+  "funFact": "The sci-fi genre really boomed in the ‘80s as excitement about new technology and the future was reshaping pop culture. The cult classic Back to the Future was one of that year’s highest-grossing movies.",
+  "funFactSource": "Source: IMDb",
+  "images": [
+    {
+      "id": "img-1784204984670",
+      "src": "/data/1985/images/1784204984665-image_7.png",
+      "x": 58.98231398720003,
+      "y": 35.87077093732668,
+      "width": 35.38479022183431,
+      "height": 11.559598536411736,
+      "caption": "The μ-Gold relay for P&B and the same relay under the Strömberg brand"
+    },
+    {
+      "id": "img-1784205022928",
+      "src": "/data/1985/images/1784205022844-SPACOM_ja_SETELI_1.png",
+      "x": 59.0538612684243,
+      "y": 51.93004730085785,
+      "width": 35.30452311571082,
+      "height": 12.179260523490115,
+      "caption": "SETELI award winners 1985 for the SPACOM design, from left to right; Seppo Pettissalo, Henrik Sundell and Tapio Hakola (Tapio Ylöstalo is missing from the picture)"
+    },
+    {
+      "id": "img-1784205037094",
+      "src": "/data/1985/images/1784205037074-image_8.png",
+      "x": 74.8029829626639,
+      "y": 70.64614531336662,
+      "width": 19.618228877796263,
+      "height": 15.830948127731038,
+      "caption": "Complete protection panels built by the Strömberg Electronics Group Top: Tainionkoski Hydro Power Plant, Finland Lower left: Protection, measurement and control for a small steam power plant, Adra Sugar Co in Syria Lower right: Protection for a compensating station in Luano, Zambia"
+    },
+    {
+      "id": "img-1784205057880",
+      "src": "/data/1985/images/1784205057876-Laitilan_SaI_hkoI_037-1_1.png",
+      "x": 52.07062303568127,
+      "y": 73.41930116472545,
+      "width": 20.55974638165695,
+      "height": 6.468927050735383,
+      "caption": "Strömberg Control System (SCS) delivered to Laitilan Sähkö Oy in 1985"
+    },
+    {
+      "id": "img-1784205075977",
+      "src": "/data/1985/images/1784205075974-SWRK10003_1.png",
+      "x": 52.07062303568127,
+      "y": 84.46136635463948,
+      "width": 20.819776031856424,
+      "height": 8.342170533312334,
+      "caption": "Standard monitoring system SWRK10A1 for 10 analogue channels"
+    },
+    {
+      "id": "img-1784205308148",
+      "src": "/data/1985/images/1784205308102-Bild_25_-_SPACOM009_1.png",
+      "x": 34.37653321841051,
+      "y": 56.57272522615997,
+      "width": 22.280458495100756,
+      "height": 12.532757903494177,
+      "caption": "The SPACOM system launched 1985."
+    },
+    {
+      "id": "img-1784205323009",
+      "src": "/data/1985/images/1784205322985-SPAA_320C018_1.png",
+      "x": 6.122511862944475,
+      "y": 55.005546311702716,
+      "width": 26.027300178714484,
+      "height": 11.259426600087425,
+      "caption": "The communicating feeder protection unit SPAA 320 C included in the launch of the SPACOM secondary equipment family in 1985"
+    }
+  ],
+  "funFactImage": "/data/1985/images/funfact/funfact.png"
+}

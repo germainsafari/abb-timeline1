@@ -1,0 +1,27 @@
+{
+  "title": "SSC600 SW VIRTUALIZED\nPROTECTION",
+  "text": "You might say that world firsts are a part of our DNA at ABB Oy. In 2023, we added another one to the list from right here in Vaasa: the world’s first virtualized protection and control solution, SSC600 SW.\n\nWe transformed the physical into the virtual, and the complex into the simple, enabling users to use the hardware of their choice to optimize substation assets. This leap made it possible to manage 60 bays with one device.",
+  "funFact": "By the time Mission: Impossible – Dead Reckoning Part One hit cinemas in 2023, the franchise was already on its  seventh film. The success of the Mission Impossible series is proof that the world never get tired of seeing impossible missions become possible, something our clients also expect from us at ABB.",
+  "funFactSource": "Source: IMDb",
+  "images": [
+    {
+      "id": "img-1784207969012",
+      "src": "/data/2023/images/1784207969002-Zrzut_ekranu_2026-04-23_o_11.02.49_1.png",
+      "x": 6.023910766007272,
+      "y": 51.455906821963396,
+      "width": 44.26850311209712,
+      "height": 16.963149118281752,
+      "caption": "SSC600 SW is the virtualized version of the SSC600 turnkey device. ABB’s virtualized protection and control, SSC600 SW, can be installed on the hardware of our customers’ choice gaining access to the same proven protection and control functionality as with ABB’s turnkey solution, SSC600."
+    },
+    {
+      "id": "img-1784207978864",
+      "src": "/data/2023/images/1784207978829-Zrzut_ekranu_2026-04-23_o_11.04.49_1.png",
+      "x": 53.45103839280212,
+      "y": 56.11480865224625,
+      "width": 40.7188636223578,
+      "height": 22.904360787576262,
+      "caption": "Centralized protection and control bring scalability and flexibility in digital substations."
+    }
+  ],
+  "funFactImage": "/data/2023/images/funfact/funfact.png"
+}

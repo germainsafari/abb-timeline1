@@ -1,0 +1,54 @@
+{
+  "title": "SPAC TERMINAL",
+  "text": "In the late ‘80s, digital wasn’t just a kooky sci-fi fantasy anymore, it was really becoming the new systems reality. ABB was connecting these digital dots with the SPAC feeder terminal in the SPACOM system.\n\nThe SPAC terminals digitally integrated multiple protection and control functions into a single compact unit instead of using separate relays for each function. This enabled smarter protection and control and was a pioneering solution in the market.",
+  "funFact": "‘80s office life often meant battling a copier that always seemed to jam at the very worst time. That was before 1987’s Windows 2.0 kicked off digital documents. Goodbye paper chaos, hello file sharing.",
+  "funFactSource": "Source: Wikipedia",
+  "images": [
+    {
+      "id": "img-1784205604018",
+      "src": "/data/1987/images/1784205603752-Jukka-Seppo-SPAC_1988_026_1.png",
+      "x": 52.07062303568127,
+      "y": 32.48752079866888,
+      "width": 42.000677882541446,
+      "height": 15.290697717185179,
+      "caption": "In 1988 the SPACOM system won the first price in the “Productive Idea” competition (to the left Seppo Pettissalo and to the right jukka Soininen)"
+    },
+    {
+      "id": "img-1784205625316",
+      "src": "/data/1987/images/1784205625291-Ornrskolvik_1.png",
+      "x": 55.028655943797375,
+      "y": 53.95174708818635,
+      "width": 39.042644974425336,
+      "height": 15.069927173966418,
+      "caption": "Original chart of the Örnsköldsvik system"
+    },
+    {
+      "id": "img-1784205644286",
+      "src": "/data/1987/images/1784205644243-Packet_Radio_Rm_4960-1_co300_1.png",
+      "x": 63.40974918345966,
+      "y": 73.58569051580699,
+      "width": 23.069267270598385,
+      "height": 18.406527761908507,
+      "caption": "Packet radio"
+    },
+    {
+      "id": "img-1784205675422",
+      "src": "/data/1987/images/1784205675168-Jukka-Seppo-SPAC_1988_026-1_2.png",
+      "x": 5.8267085721328655,
+      "y": 46.90793122573489,
+      "width": 35,
+      "height": 8.673513986013987,
+      "caption": "SPAC 520C feeder terminal used in the Örnsköldsvik installation 1987, the terminal in the picture is provided with an add-on disturbance recorder module (could be inserted into any SPACOM protection assembly)"
+    },
+    {
+      "id": "img-1784205681498",
+      "src": "/data/1987/images/1784205681484-image_9.png",
+      "x": 15.19381278116719,
+      "y": 62.437603993344425,
+      "width": 35,
+      "height": 8.299632352941176,
+      "caption": "SPAG generator protection and SPAJ 140 C feeder protection"
+    }
+  ],
+  "funFactImage": "/data/1987/images/funfact/funfact.png"
+}

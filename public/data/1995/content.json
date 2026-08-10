@@ -1,0 +1,45 @@
+{
+  "title": "RED 500 FAMILY",
+  "text": "The mid-’90s are often remembered as the time when the internet became personal, commercial, and a little chaotic —in a good way. It was a real bridging era. ABB Oy’s relay family release in the mid-’90s, RED 500, established a similar link between our early relays and the fully digital numerical ones that would come later.\n\nThe RED 500 terminals were among the first to use block programming based on the IEC 1131-3 standard. This enabled control logic to be implemented using function blocks, reducing the need for separate PLCs and control units.",
+  "funFact": "The mass tech launch mania we know today began in 1995 with Windows 95. This wasn’t just a software release, it was a pop cultural event. People lined up overnight at stores to get their copy.",
+  "funFactSource": "Source: Gemini",
+  "images": [
+    {
+      "id": "img-1784206624198",
+      "src": "/data/1995/images/1784206624167-REF54group_coi300_1.png",
+      "x": 49.9013989030628,
+      "y": 32.59844703272325,
+      "width": 43.97269982128551,
+      "height": 10.241220494091769,
+      "caption": "Feeder terminals REF 541, REF 543 and REF 545"
+    },
+    {
+      "id": "img-1784206658755",
+      "src": "/data/1995/images/1784206658700-Ref541kytkettyco300_1.png",
+      "x": 49.58636728042216,
+      "y": 48.23904603438714,
+      "width": 44.4446882921119,
+      "height": 17.473917860920302,
+      "caption": "REF 541 was also available with a detachable local HMI"
+    },
+    {
+      "id": "img-1784206670404",
+      "src": "/data/1995/images/1784206670395-Panorama_in_1995_009_1.png",
+      "x": 53.11074163647916,
+      "y": 72.64281752634498,
+      "width": 40.772971253783666,
+      "height": 15.782151515136428,
+      "caption": "In 1995 the Panorama concept was launched by the Network Control and Protection business area. Panorama was a total system concept including everything from metering and load management up to energy trading systems."
+    },
+    {
+      "id": "img-1784206783310",
+      "src": "/data/1995/images/1784206783193-1cf6e724-6d5d-4703-8fd0-ea56519aed27_9IBA023356_1.png",
+      "x": 5.8267085721328655,
+      "y": 52.50970604547975,
+      "width": 40.58270020277785,
+      "height": 17.120826648046904,
+      "caption": "RED 500 became the new standard device replacing the earlier SPAC terminals."
+    }
+  ],
+  "funFactImage": "/data/1995/images/funfact/funfact.png"
+}

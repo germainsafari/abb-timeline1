@@ -1,0 +1,45 @@
+{
+  "title": "COM610 COMMUNICATION\nGATEWAY ",
+  "text": "Communication, communication, communication: that was the big theme of 2004. The only problem for substations was that not all relays spoke the same language. \n\nOld and new systems often struggled to understand each other, and that’s why we introduced the COM610 communication gateway. It acted as a bridge between older relays and the control center, translating different protocols into a usable and unified data system.",
+  "funFact": "If it sometimes feels like there’s too much digital talk going on these days, blame 2004. That’s when Facebook showed up and kicked off endless online chatter.",
+  "funFactSource": "Source: Bitdefender",
+  "images": [
+    {
+      "id": "img-1784207288747",
+      "src": "/data/2004/images/1784207288700-image_6.png",
+      "x": 57.19788007641585,
+      "y": 72.42096505823628,
+      "width": 37.46502742343008,
+      "height": 18.914848630015552,
+      "caption": "MicroSCADA Pro and a DMS600 view"
+    },
+    {
+      "id": "img-1784207303211",
+      "src": "/data/2004/images/1784207303185-COM610_ST_7223_1.png",
+      "x": 53.253836198927715,
+      "y": 54.45091514143095,
+      "width": 35.29580329081161,
+      "height": 13.244991936954392,
+      "caption": "The first COM 610 unit with industrial embedded hardware."
+    },
+    {
+      "id": "img-1784207315295",
+      "src": "/data/2004/images/1784207315293-image_5.png",
+      "x": 63.60695137733408,
+      "y": 34.31780366056572,
+      "width": 30.168546250077032,
+      "height": 15.256243665551986,
+      "caption": "Example of the MicroSCADA Pro display"
+    },
+    {
+      "id": "img-1784207325601",
+      "src": "/data/2004/images/1784207325599-image_4.png",
+      "x": 6.221112959881679,
+      "y": 51.78868552412646,
+      "width": 42.662937404373636,
+      "height": 16.554702649223863,
+      "caption": "COM 610 evolved into the station automation device COM600 for utility and industrial distribution substations."
+    }
+  ],
+  "funFactImage": "/data/2004/images/funfact/funfact.png"
+}

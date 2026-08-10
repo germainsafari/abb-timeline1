@@ -1,0 +1,27 @@
+{
+  "title": "SPAJ 3M5 J3\nMICROPROSESSOR-BASED\nRELAY",
+  "text": "While we might remember the ‘80s as a time of big hair, big shoulder pads, and dance moves that we would rather forget, 1982 sparked the first real wave of the digital revolution when the first CDs hit the market and the Commodore 64 brought personal computing into our homes.\n\nWe were also going digital, introducing the first microprocessor-based relay for distribution applications where settings could be configured digitally instead of physically rebuilt.",
+  "funFact": "Released four years ahead of competitors, the relay prototype was developed in secret by our engineers after management had initially dismissed the idea. The prototype soon convinced Strömberg’s top management, securing full support for further development.",
+  "funFactSource": "Source: ABB",
+  "images": [
+    {
+      "id": "img-1784204739564",
+      "src": "/data/1982/images/1784204739507-HPIM2530_2.png",
+      "x": 5.925309669070068,
+      "y": 53.89628397115918,
+      "width": 41.0146669131694,
+      "height": 18.279602292402146,
+      "caption": "The 1980 prototype for a microprocessor based protective relay"
+    },
+    {
+      "id": "img-1784204782951",
+      "src": "/data/1982/images/1784204782870-Bild_21_-_SPAJ_3M-J3-1_1.png",
+      "x": 52.267825229555676,
+      "y": 48.96006655574043,
+      "width": 42.19788007641585,
+      "height": 31.94392231989523,
+      "caption": "The first microprocessor based protective relay SPAJ 3M5 J3, deliveries started 28.02.1982."
+    }
+  ],
+  "funFactImage": "/data/1982/images/funfact/funfact.png"
+}

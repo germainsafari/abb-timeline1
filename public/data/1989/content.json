@@ -1,0 +1,54 @@
+{
+  "title": "SPAJ 140C FEEDER\nPROTECTION RELAY ",
+  "text": "We kept building on the innovative momentum that we had developed throughout the ‘80s when we introduced the SPAJ 140C feeder protection relay. This new protective relay combined three-phase overcurrent and earth-fault protection and became the market standard solution in applications where control was handled separately. A sister product, SPAM 150C, was also developed for motor protection applications.",
+  "funFact": "Tech innovation was everywhere at the end of the ‘80s. In 1989, Tim Berners Lee also proposed a system for sharing information using hypertext, the foundation for what would become the World Wide Web.",
+  "funFactSource": "Source: CERN Document Server",
+  "images": [
+    {
+      "id": "img-1784205908592",
+      "src": "/data/1989/images/1784205908564-SPIDER_reward015_1.png",
+      "x": 53.155235101990506,
+      "y": 67.31835829173602,
+      "width": 41.40907130091823,
+      "height": 22.082172415122734,
+      "caption": "The MicroSCADA project team rewarded by SETELI in December 1990. From left to right Carl-Göran Österbacka, Erkki Antila and Pentti Mäenpää"
+    },
+    {
+      "id": "img-1784205928865",
+      "src": "/data/1989/images/1784205928847-SACO_16_040_2.png",
+      "x": 38.06054744569917,
+      "y": 51.53149261183489,
+      "width": 26.027300178714484,
+      "height": 11.068919939758226,
+      "caption": "16 channel analogue alarm annunciator"
+    },
+    {
+      "id": "img-1784205952325",
+      "src": "/data/1989/images/1784205952323-MicroSCADA_technology_1.png",
+      "x": 66.56498428545018,
+      "y": 49.5146977260122,
+      "width": 27.703518826646945,
+      "height": 10.294219381880088,
+      "caption": "Application of MicroSCADA technology at different levels in power distribution"
+    },
+    {
+      "id": "img-1784205979051",
+      "src": "/data/1989/images/1784205979042-image_10.png",
+      "x": 51.47901645405805,
+      "y": 35.81530782029951,
+      "width": 42.29648117335305,
+      "height": 8.801251676137753,
+      "caption": "Earlier products in the new color"
+    },
+    {
+      "id": "img-1784206410733",
+      "src": "/data/1989/images/1784206410676-DTU1-4020_1.png",
+      "x": 6.023910766007272,
+      "y": 56.22573488630061,
+      "width": 29.57693966845381,
+      "height": 11.58754445563437,
+      "caption": "Control and supervision for a disconnector station from the early 1990´s"
+    }
+  ],
+  "funFactImage": "/data/1989/images/funfact/funfact.png"
+}

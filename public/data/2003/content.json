@@ -1,0 +1,45 @@
+{
+  "title": "610 SERIES RELAYS",
+  "text": "The early 2000s was when everything really started moving online: music, photos, and probably a few questionable usernames, too. As the world became more connected and flexible, our relays were also evolving. In 2003 we introduced the 610 series. \n\nThese were modular, withdrawable protection relays designed for easier maintenance and smarter digital protection. Instead of untangling wires like spaghetti, engineers could simply plug units in and remove them. Safe, easy, and quietly innovative.",
+  "funFact": "Remember Skype, MySpace, and Friendster? These platforms launched in 2003 and helped to invent social media and video calling... before mostly disappearing. This was the social internet’s trial era.",
+  "funFactSource": "Source: Wikipedia",
+  "images": [
+    {
+      "id": "img-1784206977094",
+      "src": "/data/2003/images/1784206977025-DTU_2.png",
+      "x": 5.925309669070068,
+      "y": 49.681087077093736,
+      "width": 44.465705305971525,
+      "height": 20.781080558107956,
+      "caption": "DTU feeder automation assemblies"
+    },
+    {
+      "id": "img-1784206993194",
+      "src": "/data/2003/images/1784206993189-image_1.png",
+      "x": 53.944043877488134,
+      "y": 56.94675540765392,
+      "width": 41.01466691316941,
+      "height": 10.585403004795928,
+      "caption": "Units in the REA arc protection family"
+    },
+    {
+      "id": "img-1784207008785",
+      "src": "/data/2003/images/1784207008778-REF610_plug_30d_coi300_1.png",
+      "x": 56.90207678560424,
+      "y": 35.094287298946206,
+      "width": 37.36642632649288,
+      "height": 12.659549328484921,
+      "caption": "The 610 series included protection relays for feeder protection, motor protection and general system voltage supervision."
+    },
+    {
+      "id": "img-1784207020473",
+      "src": "/data/2003/images/1784207020467-REF610_120d_edited_coi300_1.png",
+      "x": 53.944043877488134,
+      "y": 73.19744869661675,
+      "width": 41.21186910704381,
+      "height": 16.64982280913027,
+      "caption": "REM610 motor protection relay for the protection, measurement and supervision of medium-sized and large asynchronous LV and HV motors."
+    }
+  ],
+  "funFactImage": "/data/2003/images/funfact/funfact.png"
+}

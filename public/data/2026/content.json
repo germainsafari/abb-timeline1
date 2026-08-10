@@ -1,0 +1,36 @@
+{
+  "title": "REX600 ONE DEVICE\nWITH SEVERAL \nAPPLICATIONS",
+  "text": "Innovative relays and solutions have been our bread and butter here in Vaasa, and we’re not slowing down anytime soon. In 2026, we were proud to launch REX600, a next-generation protection and control device that brings merging unit functionality, backup protection, and fault detection together in one package.\n\nIt works seamlessly with ABB’s centralized protection solution, SSC600, for reliable protection and control in utility and industrial substations.",
+  "funFact": "2026 marked an important milestone for us as we finally came together in our new facility after several years of operating across different buildings. With an ambitious goal to double our production capacity, we are more excited than ever and look forward with confidence to the years ahead.",
+  "funFactSource": "Source: ABB",
+  "images": [
+    {
+      "id": "img-1784208322072",
+      "src": "/data/2026/images/1784208321777-Zrzut_ekranu_2026-04-23_o_11.02.49_1.png",
+      "x": 5.702530498922477,
+      "y": 54.787864002768984,
+      "width": 38.65899033032758,
+      "height": 14.81365240823687,
+      "caption": "The opening of the laboratories and the visitor balcony, by Adrian Guggisberg, Sami Raitakoski and Antti Hakala-Ranta in May 2026, highlighted the first step of the factory relocation."
+    },
+    {
+      "id": "img-1784208337612",
+      "src": "/data/2026/images/1784208337567-Zrzut_ekranu_2026-04-23_o_11.04.49_1.png",
+      "x": 54.03927942797302,
+      "y": 39.63590505725795,
+      "width": 40.077991795200795,
+      "height": 22.54387038480045,
+      "caption": "The renovation of the KT-building into a modern office and production facility enables the expansion of the relay production in Vaasa."
+    },
+    {
+      "id": "img-1784208352079",
+      "src": "/data/2026/images/1784208352077-REX600-2025-08-15_e-right_corr_1.png",
+      "x": 54.04947609231198,
+      "y": 69.43669324381922,
+      "width": 40.30077096534838,
+      "height": 12.771371080568148,
+      "caption": "REX600 replaces the SMU615 merging unit,  and complies with the latest standards for interoperability in digital substations."
+    }
+  ],
+  "funFactImage": "/data/2026/images/funfact/funfact.png"
+}

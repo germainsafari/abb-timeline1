@@ -1,0 +1,65 @@
+/* ABBvoice */
+@font-face {
+  font-family: 'ABBvoice';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/ABBvoice_WCNSG_Lt.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'ABBvoice';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ABBvoice_WCNSG_Rg.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'ABBvoice';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/ABBvoice_WCNSG_Md.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'ABBvoice';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/ABBvoice_WCNSG_Bd.woff2') format('woff2');
+}
+
+/* ABBvoice Display */
+@font-face {
+  font-family: 'ABBvoice Display';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/ABBvoiceDisplay_W_SBd.woff2') format('woff2');
+}
+
+/* Keep Google Sans Flex as fallback until you assign fonts */
+@font-face {
+  font-family: 'Google Sans Flex';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/GoogleSansFlex-SemiBold.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'ABBvoice', 'Google Sans Flex', sans-serif;
+  background: #f5f5f5;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
+}

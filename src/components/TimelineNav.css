@@ -1,0 +1,174 @@
+.timeline-nav-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.timeline-nav {
+  background: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Track */
+.tl-track-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.tl-track {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  padding: 0 var(--tl-side-padding);
+}
+
+/* Shared side padding — aligns track edges with PREV / NEXT buttons */
+.timeline-nav {
+  --tl-side-padding: 2.5vh;
+}
+
+.tl-year-group {
+  display: flex;
+  align-items: flex-end;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.tl-year-group:last-child {
+  flex: 0 0 auto;
+}
+
+.tl-year-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.tl-indicator-area {
+  width: 1.25vh;
+  height: 3vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.tl-bar-active {
+  width: 0.42vh;
+  height: 100%;
+  background: #FF000F;
+  border-radius: 0.21vh;
+}
+
+.tl-dot {
+  width: 0.42vh;
+  height: 0.42vh;
+  border-radius: 50%;
+  background: #A9A9A9;
+  transition: transform 0.3s ease;
+}
+
+.tl-year-label {
+  font-family: 'ABBvoice Display', sans-serif;
+  font-size: 0.55vh;
+  font-weight: 600;
+  color: #A9A9A9;
+  margin-top: 0.26vh;
+  padding-bottom: 0.42vh;
+  white-space: nowrap;
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.tl-year-label.active {
+  color: #FF000F;
+  font-size: 0.73vh;
+}
+
+/* Ticks between years */
+.tl-ticks {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  flex: 1 1 0;
+  min-width: 0;
+  height: 2.5vh;
+  margin-bottom: 1.46vh;
+}
+
+.tl-tick {
+  width: 0.1vh;
+  flex: 0 0 auto;
+  background: #A9A9A9;
+  border-radius: 1px;
+  transition: height 0.4s ease;
+}
+
+/* Controls row */
+.tl-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.67vh var(--tl-side-padding) 2.5vh;
+  position: relative;
+}
+
+.tl-btn-close {
+  width: 3.49vh;
+  height: 3.49vh;
+  border-radius: 50%;
+  border: none;
+  background: #A9A9A9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tl-btn-close:active {
+  background: #c0c0c0;
+}
+
+.tl-btn-arrow {
+  font-family: 'ABBvoice Display', sans-serif;
+  font-size: 1.3vh;
+  font-weight: 600;
+  letter-spacing: 0.08vh;
+  color: #FF000F;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.73vh 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5vh;
+  transition: opacity 0.2s ease;
+}
+
+.tl-arrow-icon {
+  width: 1.1vh;
+  height: 1.1vh;
+}
+
+.tl-btn-arrow:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+.tl-btn-arrow:not(:disabled):active {
+  opacity: 0.6;
+}
+
+.tl-btn-prev {
+  position: absolute;
+  left: var(--tl-side-padding);
+}
+
+.tl-btn-next {
+  position: absolute;
+  right: var(--tl-side-padding);
+}
