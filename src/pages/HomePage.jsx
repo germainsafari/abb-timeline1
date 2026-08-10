@@ -207,7 +207,7 @@ export default function HomePage({ onExplore, onStart }) {
             Looking back,<br />moving forward:
           </h2>
           <h1 className="home-title">
-            50 Years<br />at ABB Oy
+            60 Years<br />at ABB Oy
           </h1>
         </motion.div>
 

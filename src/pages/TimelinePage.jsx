@@ -32,8 +32,8 @@ export default function TimelinePage({ onClose, initialYear }) {
         className={`side-nav side-nav-prev ${hasPrev ? '' : 'disabled'}`}
         onClick={() => hasPrev && setActiveYear(YEARS[activeIndex - 1])}
       >
-        <svg viewBox="0 0 24 24" fill="none">
-          <path d="M15 6L9 12L15 18" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+        <svg viewBox="0 0 20 20" fill="none" style={{ transform: 'scaleX(-1)' }}>
+          <path d="M2.72727 9.28029V11.1742H13.5744L8.60279 16.3826L9.88636 17.7273L17.0455 10.2273L9.88636 2.72726L8.60279 4.07196L13.5744 9.28029H2.72727Z" fill="#FF000F"/>
         </svg>
       </button>
 
@@ -41,8 +41,8 @@ export default function TimelinePage({ onClose, initialYear }) {
         className={`side-nav side-nav-next ${hasNext ? '' : 'disabled'}`}
         onClick={() => hasNext && setActiveYear(YEARS[activeIndex + 1])}
       >
-        <svg viewBox="0 0 24 24" fill="none">
-          <path d="M9 6L15 12L9 18" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+        <svg viewBox="0 0 20 20" fill="none">
+          <path d="M2.72727 9.28029V11.1742H13.5744L8.60279 16.3826L9.88636 17.7273L17.0455 10.2273L9.88636 2.72726L8.60279 4.07196L13.5744 9.28029H2.72727Z" fill="#FF000F"/>
         </svg>
       </button>
 

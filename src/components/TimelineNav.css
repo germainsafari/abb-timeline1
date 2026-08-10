@@ -155,7 +155,8 @@
 }
 
 .tl-btn-arrow:disabled {
-  opacity: 0.25;
+  color: #D2D2D2;
+  opacity: 1;
   cursor: default;
 }
 

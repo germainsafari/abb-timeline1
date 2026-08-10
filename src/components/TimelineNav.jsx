@@ -95,9 +95,9 @@ export default function TimelineNav({ activeYear, onYearChange, onClose }) {
         </button>
 
         <button className="tl-btn-close" onClick={onClose}>
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-            <line x1="4" y1="4" x2="16" y2="16" stroke="#0F0F0F" strokeWidth="2" strokeLinecap="round" />
-            <line x1="16" y1="4" x2="4" y2="16" stroke="#0F0F0F" strokeWidth="2" strokeLinecap="round" />
+          <svg viewBox="0 0 92 92" fill="none">
+            <rect width="92" height="92" rx="46" fill="#D2D2D2"/>
+            <path d="M33.8662 56.3636C33.378 56.8518 33.3779 57.6432 33.8661 58.1314C34.3542 58.6196 35.1457 58.6196 35.6338 58.1315L45.9988 47.7674L56.3662 58.1339C56.8543 58.6221 57.6458 58.622 58.1339 58.1338C58.6221 57.6457 58.622 56.8542 58.1338 56.3661L47.7681 46.0011L58.1338 35.6362C58.622 35.1481 58.6221 34.3566 58.1339 33.8684C57.6458 33.3803 56.8543 33.3802 56.3662 33.8684L46.0012 44.2325L35.6338 33.8659C35.1457 33.3778 34.3542 33.3778 33.8661 33.866C33.3779 34.3542 33.378 35.1456 33.8662 35.6338L44.2319 45.9987L33.8662 56.3636Z" fill="#0F0F0F"/>
           </svg>
         </button>
 
