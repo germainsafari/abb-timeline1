@@ -40,7 +40,7 @@ function App() {
               <HomePage
                 key="home"
                 onExplore={() => setCurrentView('explore')}
-                onStart={() => setCurrentView('timeline')}
+                onStart={() => { setActiveYear(null); setCurrentView('timeline') }}
               />
             )}
             {currentView === 'explore' && (
