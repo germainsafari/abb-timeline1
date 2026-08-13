@@ -277,7 +277,7 @@ export default function ExplorePage({ onClose, onSelectYear }) {
           <circle cx="8" cy="8" r="7" stroke="currentColor" strokeWidth="1.2" />
           <path d="M8 4.5v4M8 10.5v.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
         </svg>
-        {isEditing ? 'Drag items to reposition, drag corner to resize' : 'Drag to explore and click to select the image'}
+        {isEditing ? 'Drag items to reposition, drag corner to resize' : 'Swipe and tap to explore'}
       </div>
 
       <button
