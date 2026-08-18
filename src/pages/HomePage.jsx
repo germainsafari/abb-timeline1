@@ -204,7 +204,7 @@ export default function HomePage({ onExplore, onStart }) {
           transition={{ duration: 1, ease: 'easeOut' }}
         >
           <h2 className="home-subtitle">
-            Looking back,<br />moving forward:
+            Looking back,<br />moving forward
           </h2>
           <h1 className="home-title">
             60 Years<br />at ABB Oy
