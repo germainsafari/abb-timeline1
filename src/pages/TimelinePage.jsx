@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import TimelineNav, { YEARS } from '../components/TimelineNav'
 import YearContent from '../components/YearContent'
@@ -12,6 +12,24 @@ export default function TimelinePage({ onClose, initialYear }) {
   const activeIndex = YEARS.indexOf(activeYear)
   const hasPrev = activeIndex > 0
   const hasNext = activeIndex < YEARS.length - 1
+
+  useEffect(() => {
+    if (isEditing) return
+    let timer = setTimeout(onClose, 120000)
+
+    const resetTimer = () => {
+      clearTimeout(timer)
+      timer = setTimeout(onClose, 120000)
+    }
+
+    const events = ['mousedown', 'touchstart', 'mousemove', 'scroll']
+    events.forEach((ev) => window.addEventListener(ev, resetTimer, { passive: true }))
+
+    return () => {
+      clearTimeout(timer)
+      events.forEach((ev) => window.removeEventListener(ev, resetTimer))
+    }
+  }, [isEditing, onClose])
 
   return (
     <motion.div
