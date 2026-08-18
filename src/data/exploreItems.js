@@ -48,7 +48,7 @@ const EXPLORE_ITEMS = [
 
   // ── 2003 (4 items) ────────────────────────────────────────
   { id: 32, img: 'explore-71.png', desc: 'The 610 series included protection relays for feeder protection, motor protection and general system voltage supervision.', year: 2003, x: 40.5, y: 3.8, w: 11.3 },
-  { id: 33, img: 'explore-72.png', desc: 'REM610 motor protection relay for the protection, measurement and supervision of medium-sized and large asynchronous LV and HV motors.', year: 2003, x: 49.3, y: 19.3, w: 7.0 },
+  { id: 33, img: 'explore-72.jpg', desc: 'REM610 motor protection relay for the protection, measurement and supervision of medium-sized and large asynchronous LV and HV motors.', year: 2003, x: 49.3, y: 19.3, w: 7.0 },
   { id: 34, img: 'explore-10.png', desc: 'DTU feeder automation assemblies', year: 2003, x: 39.6, y: 29.3, w: 11.0 },
   { id: 35, img: 'explore-57.png', desc: 'Units in the REA arc protection family', year: 2003, x: 41.3, y: 42.8, w: 6.0 },
 
