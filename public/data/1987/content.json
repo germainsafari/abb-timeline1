@@ -7,19 +7,19 @@
     {
       "id": "img-1784205604018",
       "src": "/data/1987/images/1784205603752-Jukka-Seppo-SPAC_1988_026_1.png",
-      "x": 52.07062303568127,
-      "y": 32.48752079866888,
-      "width": 42.000677882541446,
-      "height": 15.290697717185179,
+      "x": 55.83311568706281,
+      "y": 32.71427816828341,
+      "width": 37.83506101851189,
+      "height": 13.77417009228317,
       "caption": "In 1988 the SPACOM system won the first price in the “Productive Idea” competition (to the left Seppo Pettissalo and to the right jukka Soininen)"
     },
     {
       "id": "img-1784205625316",
       "src": "/data/1987/images/1784205625291-Ornrskolvik_1.png",
-      "x": 55.028655943797375,
-      "y": 53.95174708818635,
-      "width": 39.042644974425336,
-      "height": 15.069927173966418,
+      "x": 55.969279106642766,
+      "y": 52.893546029985295,
+      "width": 37.69889759893193,
+      "height": 14.551259058572114,
       "caption": "Original chart of the Örnsköldsvik system"
     },
     {
@@ -27,26 +27,26 @@
       "src": "/data/1987/images/1784205644243-Packet_Radio_Rm_4960-1_co300_1.png",
       "x": 63.40974918345966,
       "y": 73.58569051580699,
-      "width": 23.069267270598385,
-      "height": 18.406527761908507,
+      "width": 22.66614305795036,
+      "height": 18.084882651790068,
       "caption": "Packet radio"
     },
     {
       "id": "img-1784205675422",
       "src": "/data/1987/images/1784205675168-Jukka-Seppo-SPAC_1988_026-1_2.png",
-      "x": 5.8267085721328655,
-      "y": 46.90793122573489,
-      "width": 35,
-      "height": 8.673513986013987,
+      "x": 6.0954580472315465,
+      "y": 48.26847544342196,
+      "width": 31.909381036365165,
+      "height": 7.9076132201132205,
       "caption": "SPAC 520C feeder terminal used in the Örnsköldsvik installation 1987, the terminal in the picture is provided with an add-on disturbance recorder module (could be inserted into any SPACOM protection assembly)"
     },
     {
       "id": "img-1784205681498",
       "src": "/data/1987/images/1784205681484-image_9.png",
-      "x": 15.19381278116719,
-      "y": 62.437603993344425,
-      "width": 35,
-      "height": 8.299632352941176,
+      "x": 17.2094338444073,
+      "y": 63.19346189205947,
+      "width": 33.25312841185857,
+      "height": 7.885392582959111,
       "caption": "SPAG generator protection and SPAJ 140 C feeder protection"
     }
   ],

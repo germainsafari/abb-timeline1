@@ -5,15 +5,6 @@
   "funFactSource": "Source: ABB",
   "images": [
     {
-      "id": "img-1784208322072",
-      "src": "/data/2026/images/1784208321777-Zrzut_ekranu_2026-04-23_o_11.02.49_1.png",
-      "x": 5.702530498922477,
-      "y": 54.787864002768984,
-      "width": 38.65899033032758,
-      "height": 14.81365240823687,
-      "caption": "The opening of the laboratories and the visitor balcony, by Adrian Guggisberg, Sami Raitakoski and Antti Hakala-Ranta in May 2026, highlighted the first step of the factory relocation."
-    },
-    {
       "id": "img-1784208337612",
       "src": "/data/2026/images/1784208337567-Zrzut_ekranu_2026-04-23_o_11.04.49_1.png",
       "x": 54.03927942797302,
@@ -30,7 +21,16 @@
       "width": 40.30077096534838,
       "height": 12.771371080568148,
       "caption": "REX600 replaces the SMU615 merging unit,  and complies with the latest standards for interoperability in digital substations."
+    },
+    {
+      "id": "img-1790846022619",
+      "src": "/data/2026/images/1790846022209-Image_(52)_brighter.jpg",
+      "x": 5.950032873109796,
+      "y": 54.58579881656805,
+      "width": 36.44641683103222,
+      "height": 15.375832100591719,
+      "caption": "The opening of the laboratories and the visitor balcony in May 2026 highlighted the first step of the factory relocation. From left to right; Sami Raitakoski, Adrian Guggisberg and Antti Hakala-Ranta."
     }
   ],
-  "funFactImage": "/data/2026/images/funfact/funfact.png"
+  "funFactImage": "/data/2026/images/funfact/funfact.jpg"
 }
